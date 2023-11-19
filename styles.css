@@ -1,18 +1,33 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* sets the font to Arial */
+    background-color: rgb(243, 235, 227);/* sets the background color  */
   }
   
   .container {
+    /* Max container width */
     max-width: 800px;
+
+    /* Margin and center alignment */
     margin: 50px auto;
+
+    /* Centered text */
     text-align: center;
-    background-color: #c64ea8;
+
+     /* Background color */
+    background-color: #6c94bc;
+
+        /* Padding around content */
     padding: 20px;
+
+    /* Rounded corners */
     border-radius: 8px;
+
+    /* Box shadow for depth */
     box-shadow: 0 0 10px rgba(34, 32, 32, 0.87);
   }
+  
+
   
   #a {
     background-color: #154610;
@@ -24,9 +39,11 @@ body {
     margin: 10px;
   }
   
+  /* Add hover effect to 'a' element */
   #a:hover {
     background-color: #a05a45;
   }
+
   #b {
     background-color: #634caf;
     color: #fff;
@@ -52,6 +69,7 @@ body {
     margin-bottom: 50px;
   }
   
+  /* 100% width, margin, and rounded borders */
   #comicOutput img {
     max-width: 100%;
     margin-top: 20px;
@@ -65,5 +83,8 @@ body {
   }
   label{
     margin-left: 55%;
+  }
+  h1,label{
+    color: #fff;
   }
   
